@@ -47,7 +47,6 @@
     - **Distance between transmitter and receiver**.
     - **Power of the transmitted signal**. 
 
-These notes give a basic overview of mobile radio propagation, introducing its key concepts and challenges in communication systems.
 
 ### **Large Scale Path Loss: Free Space Propagation Model**
 
