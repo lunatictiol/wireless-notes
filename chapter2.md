@@ -39,7 +39,8 @@ Figuratively speaking, there are broadly two ways to increase the channel capaci
 - **Borrowing of frequency**
 
 Both of the above methods will also lead to an increase in cost along with capacity. Two distinct approaches we use in the modern day to increase channel capacity are **Cell Splitting** and **Cell Sectoring**.
-**Cell Splitting**
+
+--**Cell Splitting**
    - **Definition:** Cell Splitting is the process of subdividing a cell into smaller cells each with its own Base Station. On splitting, new cells with smaller radius are added called microcells. Each new cell created is independent and has reduced antenna height and transmitter power. The creation of new smaller cells increases the capacity of the system as a whole. Cell Splitting increases the frequency reuse factor. A higher frequency reuse factor increases the capacity of the cellular system in Cell Splitting.
    - **Purpose:** As traffic grows in a certain area, the original large cells become overloaded. Splitting them into smaller cells allows the network to serve more users in that area without additional spectrum.
    - **Effects on Frequency Reuse:** With smaller cells, frequencies can be reused more frequently, increasing the overall capacity of the network. However, it also increases the need for more base stations and careful interference management.
