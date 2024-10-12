@@ -39,7 +39,7 @@ Figuratively speaking, there are broadly two ways to increase the channel capaci
 - **Borrowing of frequency**
 
 Both of the above methods will also lead to an increase in cost along with capacity. Two distinct approaches we use in the modern day to increase channel capacity are **Cell Splitting** and **Cell Sectoring**.
-### 5. **Cell Splitting**
+**Cell Splitting**
    - **Definition:** Cell Splitting is the process of subdividing a cell into smaller cells each with its own Base Station. On splitting, new cells with smaller radius are added called microcells. Each new cell created is independent and has reduced antenna height and transmitter power. The creation of new smaller cells increases the capacity of the system as a whole. Cell Splitting increases the frequency reuse factor. A higher frequency reuse factor increases the capacity of the cellular system in Cell Splitting.
    - **Purpose:** As traffic grows in a certain area, the original large cells become overloaded. Splitting them into smaller cells allows the network to serve more users in that area without additional spectrum.
    - **Effects on Frequency Reuse:** With smaller cells, frequencies can be reused more frequently, increasing the overall capacity of the network. However, it also increases the need for more base stations and careful interference management.
@@ -54,7 +54,7 @@ Both of the above methods will also lead to an increase in cost along with capac
  - Handoff occurs frequently.
  - Assigning channels is difficult
 ---
-### 6. **Cell Sectorization**
+**Cell Sectorization**
    - **Definition:** Cells are divided into a number of wedge-shaped sectors, each with its own set of channels. By wedge-shaped we mean that the cells are divided at an angle of 120° or 60°. These sectored cells are called microcells. Like Cell Splitting, it also helps in increasing channel capacity and decreases channel interference. 3 or 6 sectors are created from a given cell. But unlike Cell Splitting, here the cell radius does not change after sectoring the cells although the co-channel reuse ratio has decreased. It increases system performance by using a directional antenna. 
    - **Purpose:** Sectorization helps in reducing interference and increasing capacity without requiring additional frequencies. Each sector operates like a mini-cell, using a subset of the frequencies allocated to the main cell.
 -**Advantages**
@@ -68,11 +68,11 @@ Both of the above methods will also lead to an increase in cost along with capac
  - It decreases efficiency as sectoring reduces the channel groups.
  - Excessive interference leads to traffic loss.
  - The number of handoffs increases as the working area of the cell decreases in Cell Sectoring.
+---
 ### **Generations of Wireless Networks**
 
 Wireless communication technology has evolved rapidly over the past few decades, transforming how we connect, communicate, and interact with the world. This evolution is categorized into different generations, each marked by significant technological advancements and enhanced capabilities. Below is a comprehensive overview of each generation from 2G to beyond 5G, along with an introduction to Next-Generation Networks (NGN).
 
----
 
 #### **1. 2G (Second Generation) Wireless Networks**
 
