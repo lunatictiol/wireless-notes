@@ -151,20 +151,7 @@ The Okumura model is an empirical model developed in the 1960s, primarily for pr
 - **Environment Types**: Works in urban, suburban, and rural environments. 
 - **Correction Factors**: Provides correction factors for different types of terrain and environmental conditions (e.g., urban clutter, rural flat areas).
 
-#### **Okumura’s Path Loss Formula**:
-The basic formula for path loss in the Okumura model is:
-
-\[
-L = L_f + A_m(u) - G_h(b) - G_h(m) - G_{\text{area}}
-\]
-
-Where:
-- \( L \) = path loss (in dB).
-- \( L_f \) = free-space path loss at a distance \( d \) (in dB).
-- \( A_m(u) \) = median attenuation relative to free space (obtained from empirical curves).
-- \( G_h(b) \) = base station antenna height gain factor.
-- \( G_h(m) \) = mobile station antenna height gain factor.
-- \( G_{\text{area}} \) = gain due to the type of environment (urban, suburban, rural).
+![](Okumura.png)
 
 #### **Key Parameters**:
 - **Base Station Antenna Height**: Higher antennas reduce path loss.
@@ -338,38 +325,7 @@ Rayleigh fading is particularly common in urban areas or environments where sign
 
 The probability distribution of the signal amplitude in a Rayleigh fading channel is given by the **Rayleigh probability density function (PDF)**. The Rayleigh distribution is applicable when the in-phase and quadrature components of the received signal are independent and normally distributed (Gaussian) with zero mean.
 
-#### **Rayleigh PDF**:
-
-\[
-f(r) = \frac{r}{\sigma^2} e^{-\frac{r^2}{2\sigma^2}}, \quad r \geq 0
-\]
-
-Where:
-- \( f(r) \) = probability density function for the received signal amplitude \( r \).
-- \( r \) = received signal amplitude.
-- \( \sigma \) = scale parameter, related to the variance of the underlying Gaussian components.
-  
-The Rayleigh PDF describes how the signal amplitude varies with probability in a multipath environment.
-
-#### **Cumulative Distribution Function (CDF)**:
-
-The cumulative distribution function (CDF), which gives the probability that the received signal amplitude is less than or equal to a specific value, is given by:
-
-\[
-F(r) = 1 - e^{-\frac{r^2}{2\sigma^2}}
-\]
-
-#### **Mean and Variance**:
-
-- **Mean amplitude** (\( E[r] \)):  
-  \[
-  E[r] = \sigma \sqrt{\pi / 2}
-  \]
-  
-- **Variance** (\( \text{Var}(r) \)):  
-  \[
-  \text{Var}(r) = (2 - \pi/2) \sigma^2
-  \]
+![](Rayleigh.png)
 
 ---
 
