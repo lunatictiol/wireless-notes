@@ -19,6 +19,7 @@
    - **Mitigation:**
      - **Increasing the reuse distance:** By ensuring that cells using the same frequency are farther apart, the network reduces the likelihood of interference.
      - **Power control:** Adjusting the transmission power to reduce interference.
+
 ---
 ### 4. **Adjacent Channel Interference (ACI)**
    - **Definition:** Adjacent channel interference is caused by signals from nearby frequencies overlapping, leading to interference.
@@ -54,6 +55,7 @@ Both of the above methods will also lead to an increase in cost along with capac
  - For each individual cell, an individual base station is required so a huge number of base stations are needed     in this process.
  - Handoff occurs frequently.
  - Assigning channels is difficult
+![](cell-spilliting.jpg)
 ---
 **Cell Sectorization**
    - **Definition:** Cells are divided into a number of wedge-shaped sectors, each with its own set of channels. By wedge-shaped we mean that the cells are divided at an angle of 120° or 60°. These sectored cells are called microcells. Like Cell Splitting, it also helps in increasing channel capacity and decreases channel interference. 3 or 6 sectors are created from a given cell. But unlike Cell Splitting, here the cell radius does not change after sectoring the cells although the co-channel reuse ratio has decreased. It increases system performance by using a directional antenna. 
@@ -68,7 +70,9 @@ Both of the above methods will also lead to an increase in cost along with capac
  - Increases the number of antennas per base station.
  - It decreases efficiency as sectoring reduces the channel groups.
  - Excessive interference leads to traffic loss.
- - The number of handoffs increases as the working area of the cell decreases in Cell Sectoring.
+ - The number of handoffs increases as the working area of the cell decreases in Cell Sectoring
+
+![](sect.jpg)
 ---
 ### **Generations of Wireless Networks**
 
