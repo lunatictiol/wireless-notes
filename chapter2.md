@@ -23,6 +23,9 @@
 ### 4. **Adjacent Channel Interference (ACI)**
    - **Definition:** Adjacent channel interference is caused by signals from nearby frequencies overlapping, leading to interference.
    - **Cause:** It happens due to imperfect filtering of frequencies, resulting in the leakage of signals into adjacent frequency bands. It often occurs when channels that are adjacent in the frequency spectrum are assigned to neighboring cells.
+   - The **near-far effect** happens when two devices are trying to send signals to the same receiver (like a cell tower), but one is much closer than the other. The closer device's signal is much stronger, making it hard for the receiver to "hear" the weaker signal from the farther device. It's like trying to listen to a friend whisper while someone else is shouting right next to you.
+
+To fix this, networks use **power control** to make sure both signals arrive at the receiver with similar strength, even if one device is far away.
    - **Mitigation:**
      - **Proper frequency planning:** Ensuring that adjacent frequencies are not assigned to neighboring cells.
      - **Guard bands:** Adding unused frequency bands between channels to prevent overlap.
