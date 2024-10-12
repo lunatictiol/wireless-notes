@@ -12,14 +12,14 @@
      - **Paging Control Channel (PCH):** Used to notify mobile devices of incoming calls or messages.
      - **Access Control Channel (ACH):** Handles requests from mobile devices to access the network.
    - **Channel Allocation:** In frequency reuse, channels are carefully allocated to cells based on traffic demand and interference management.
-
+---
 ### 3. **Co-Channel Interference (CCI)**
    - **Definition:** Co-channel interference occurs when the same frequency is used by multiple cells, leading to interference between signals, especially if the cells are geographically close.
    - **Cause:** Since frequency reuse means the same frequencies are used in multiple cells, interference from other cells using the same frequency set can occur. This interference is more pronounced when cells are closer together or there are obstructions affecting signal propagation.
    - **Mitigation:**
      - **Increasing the reuse distance:** By ensuring that cells using the same frequency are farther apart, the network reduces the likelihood of interference.
      - **Power control:** Adjusting the transmission power to reduce interference.
-
+---
 ### 4. **Adjacent Channel Interference (ACI)**
    - **Definition:** Adjacent channel interference is caused by signals from nearby frequencies overlapping, leading to interference.
    - **Cause:** It happens due to imperfect filtering of frequencies, resulting in the leakage of signals into adjacent frequency bands. It often occurs when channels that are adjacent in the frequency spectrum are assigned to neighboring cells.
@@ -30,22 +30,45 @@ To fix this, networks use **power control** to make sure both signals arrive at 
      - **Proper frequency planning:** Ensuring that adjacent frequencies are not assigned to neighboring cells.
      - **Guard bands:** Adding unused frequency bands between channels to prevent overlap.
      - **Better filtering techniques** to prevent signal leakage.
+---
+With the growing number of mobile users, it is important for the cellular capacity to also keep growing to meet the needs of the users. In this article, we will look at some of the capacity-increasing methods in cellular networks.
 
+Figuratively speaking, there are broadly two ways to increase the channel capacity:
+
+- **The new addition of channels**
+- **Borrowing of frequency**
+
+Both of the above methods will also lead to an increase in cost along with capacity. Two distinct approaches we use in the modern day to increase channel capacity are **Cell Splitting** and **Cell Sectoring**.
 ### 5. **Cell Splitting**
-   - **Definition:** Cell splitting is a technique used to increase the capacity of a network by dividing a large cell into smaller cells, each with its own base station and frequency set. This technique is often used in areas with high user density.
+   - **Definition:** Cell Splitting is the process of subdividing a cell into smaller cells each with its own Base Station. On splitting, new cells with smaller radius are added called microcells. Each new cell created is independent and has reduced antenna height and transmitter power. The creation of new smaller cells increases the capacity of the system as a whole. Cell Splitting increases the frequency reuse factor. A higher frequency reuse factor increases the capacity of the cellular system in Cell Splitting.
    - **Purpose:** As traffic grows in a certain area, the original large cells become overloaded. Splitting them into smaller cells allows the network to serve more users in that area without additional spectrum.
    - **Effects on Frequency Reuse:** With smaller cells, frequencies can be reused more frequently, increasing the overall capacity of the network. However, it also increases the need for more base stations and careful interference management.
-
+-**Advantages**
+ - Increases the capacity of the channel considerably.
+ - Enhances dependability of cellular networks.
+ - Increases the frequency reuse factor.
+ - Increases signal-to-noise (SNR) ratio.
+ - Reduces interference.
+-**Disadvantages**
+ - For each individual cell, an individual base station is required so a huge number of base stations are needed     in this process.
+ - Handoff occurs frequently.
+ - Assigning channels is difficult
+---
 ### 6. **Cell Sectorization**
-   - **Definition:** Cell sectorization involves dividing a single cell into multiple sectors, each with its own set of directional antennas and frequency allocation. Typically, a cell is divided into 3 (120-degree sectors) or 6 (60-degree sectors).
+   - **Definition:** Cells are divided into a number of wedge-shaped sectors, each with its own set of channels. By wedge-shaped we mean that the cells are divided at an angle of 120° or 60°. These sectored cells are called microcells. Like Cell Splitting, it also helps in increasing channel capacity and decreases channel interference. 3 or 6 sectors are created from a given cell. But unlike Cell Splitting, here the cell radius does not change after sectoring the cells although the co-channel reuse ratio has decreased. It increases system performance by using a directional antenna. 
    - **Purpose:** Sectorization helps in reducing interference and increasing capacity without requiring additional frequencies. Each sector operates like a mini-cell, using a subset of the frequencies allocated to the main cell.
-   - **Benefits:**
-     - **Reduction of Co-channel Interference:** Since each sector uses directional antennas, the interference between sectors is reduced, leading to better performance.
-     - **Increased Capacity:** More users can be accommodated in a single geographical area since the sectors allow for more efficient use of frequencies.
-   - **Challenges:**
-     - **Increased infrastructure costs:** More antennas, base station equipment, and resources are required.
-     - **Complexity in handoff:** As a mobile device moves between sectors, frequent handoffs may be required, increasing the complexity of network management.
-### **Detailed Notes on Generations of Wireless Networks**
+-**Advantages**
+ - Sectoring increases the signal-to-interference ratio which means the cluster size gets reduced.
+ - Reduces interference without altering the system performance.
+ - Increases channel capacity without necessarily changing the cell radius.
+ - Increases frequency reuse by reducing the number of cells in the cluster.
+ - Assigning a channel is easier.
+-**Disadvantages**
+ - Increases the number of antennas per base station.
+ - It decreases efficiency as sectoring reduces the channel groups.
+ - Excessive interference leads to traffic loss.
+ - The number of handoffs increases as the working area of the cell decreases in Cell Sectoring.
+### **Generations of Wireless Networks**
 
 Wireless communication technology has evolved rapidly over the past few decades, transforming how we connect, communicate, and interact with the world. This evolution is categorized into different generations, each marked by significant technological advancements and enhanced capabilities. Below is a comprehensive overview of each generation from 2G to beyond 5G, along with an introduction to Next-Generation Networks (NGN).
 
