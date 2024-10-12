@@ -248,17 +248,26 @@ Several factors contribute to small-scale fading:
 
 The **Doppler Shift** refers to the change in frequency of a signal when the transmitter, receiver, or objects in the environment are in motion. This effect causes a shift in the observed frequency of the received signal.
 
-#### **Doppler Shift Equation**:
+Here’s the Doppler Shift Equation and its effects in plain text:
 
-\[
-f_d = \frac{v}{\lambda} \cdot \cos(\theta)
-\]
+---
+
+**Doppler Shift Equation**:
+
+f_d = (v / λ) * cos(θ)
 
 Where:
-- \( f_d \) = Doppler shift (Hz).
-- \( v \) = relative velocity between the transmitter and receiver (m/s).
-- \( \lambda \) = wavelength of the signal (m).
-- \( \theta \) = angle between the direction of motion and the direction of the wave propagation.
+- f_d = Doppler shift (Hz).
+- v = relative velocity between the transmitter and receiver (m/s).
+- λ = wavelength of the signal (m).
+- θ = angle between the direction of motion and the direction of the wave propagation.
+
+**Effects of Doppler Shift**:
+- **Positive Doppler Shift**: Occurs when the transmitter and receiver move towards each other, resulting in an increase in frequency.
+- **Negative Doppler Shift**: Occurs when the transmitter and receiver move away from each other, leading to a decrease in frequency.
+- The Doppler shift can cause frequency distortion and affect the signal quality, contributing to fast fading.
+
+---
 
 #### **Effects of Doppler Shift**:
 - **Positive Doppler Shift**: Occurs when the transmitter and receiver move towards each other, resulting in an increase in frequency.
