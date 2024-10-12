@@ -45,12 +45,14 @@ Both of the above methods will also lead to an increase in cost along with capac
    - **Definition:** Cell Splitting is the process of subdividing a cell into smaller cells each with its own Base Station. On splitting, new cells with smaller radius are added called microcells. Each new cell created is independent and has reduced antenna height and transmitter power. The creation of new smaller cells increases the capacity of the system as a whole. Cell Splitting increases the frequency reuse factor. A higher frequency reuse factor increases the capacity of the cellular system in Cell Splitting.
    - **Purpose:** As traffic grows in a certain area, the original large cells become overloaded. Splitting them into smaller cells allows the network to serve more users in that area without additional spectrum.
    - **Effects on Frequency Reuse:** With smaller cells, frequencies can be reused more frequently, increasing the overall capacity of the network. However, it also increases the need for more base stations and careful interference management.
+
 -**Advantages**
  - Increases the capacity of the channel considerably.
  - Enhances dependability of cellular networks.
  - Increases the frequency reuse factor.
  - Increases signal-to-noise (SNR) ratio.
  - Reduces interference.
+
 -**Disadvantages**
  - For each individual cell, an individual base station is required so a huge number of base stations are needed     in this process.
  - Handoff occurs frequently.
@@ -62,12 +64,14 @@ Both of the above methods will also lead to an increase in cost along with capac
 **Cell Sectorization**
    - **Definition:** Cells are divided into a number of wedge-shaped sectors, each with its own set of channels. By wedge-shaped we mean that the cells are divided at an angle of 120° or 60°. These sectored cells are called microcells. Like Cell Splitting, it also helps in increasing channel capacity and decreases channel interference. 3 or 6 sectors are created from a given cell. But unlike Cell Splitting, here the cell radius does not change after sectoring the cells although the co-channel reuse ratio has decreased. It increases system performance by using a directional antenna. 
    - **Purpose:** Sectorization helps in reducing interference and increasing capacity without requiring additional frequencies. Each sector operates like a mini-cell, using a subset of the frequencies allocated to the main cell.
+
 -**Advantages**
  - Sectoring increases the signal-to-interference ratio which means the cluster size gets reduced.
  - Reduces interference without altering the system performance.
  - Increases channel capacity without necessarily changing the cell radius.
  - Increases frequency reuse by reducing the number of cells in the cluster.
  - Assigning a channel is easier.
+
 -**Disadvantages**
  - Increases the number of antennas per base station.
  - It decreases efficiency as sectoring reduces the channel groups.
