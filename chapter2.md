@@ -55,6 +55,8 @@ Both of the above methods will also lead to an increase in cost along with capac
  - For each individual cell, an individual base station is required so a huge number of base stations are needed     in this process.
  - Handoff occurs frequently.
  - Assigning channels is difficult
+
+
 ![](cell-spilliting.jpg)
 ---
 **Cell Sectorization**
