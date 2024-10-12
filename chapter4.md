@@ -61,24 +61,26 @@ The Free Space Propagation Model is used to predict the signal strength over a d
 2. **Path Loss**:  
    Path loss represents the reduction in signal power as the signal propagates through space. In free space, the signal strength decreases as the distance between the transmitter and receiver increases.
 
-3. **Free Space Path Loss (FSPL) Formula**:
-   
-   \[
-   \text{FSPL (dB)} = 20 \log_{10}(d) + 20 \log_{10}(f) - 147.55
-   \]
-   
+3. Free Space Path Loss (FSPL) Formula:
+
+   FSPL (dB) = 20 log10(d) + 20 log10(f) - 147.55
+
    Where:
-   - \( d \) = distance between the transmitter and receiver (in meters).
-   - \( f \) = frequency of the signal (in MHz).
-   - The constant \( 147.55 \) converts the result into dB based on specific units.
+   - d = distance between the transmitter and receiver (in meters).
+   - f = frequency of the signal (in MHz).
+   - The constant 147.55 converts the result into dB based on specific units.
 
    Alternatively, it can be written as:
 
-   \[
-   \text{FSPL (dB)} = 32.44 + 20 \log_{10}(d) + 20 \log_{10}(f)
-   \]
+   FSPL (dB) = 32.44 + 20 log10(d) + 20 log10(f)
 
-   - The constant \( 32.44 \) assumes the frequency is in MHz, and distance is in kilometers.
+   - The constant 32.44 assumes the frequency is in MHz, and distance is in kilometers.
+
+4. Explanation of the Equation:
+   - The first term 20 log10(d) accounts for the loss as the signal travels over distance. Signal strength decreases with the square of the distance.
+   - The second term 20 log10(f) reflects how higher frequencies suffer more attenuation in free space. Higher frequencies lead to greater path loss.
+   - The constant term adjusts the equation for practical units and ensures that the result is in decibels (dB).
+
 
 4. **Explanation of the Equation**:
    - The **first term** \( 20 \log_{10}(d) \) accounts for the loss as the signal travels over distance. Signal strength decreases with the square of the distance.
