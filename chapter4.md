@@ -241,12 +241,6 @@ Where:
 - v = relative velocity between the transmitter and receiver (m/s).
 - λ = wavelength of the signal (m).
 - θ = angle between the direction of motion and the direction of the wave propagation.
-
-**Effects of Doppler Shift**:
-- **Positive Doppler Shift**: Occurs when the transmitter and receiver move towards each other, resulting in an increase in frequency.
-- **Negative Doppler Shift**: Occurs when the transmitter and receiver move away from each other, leading to a decrease in frequency.
-- The Doppler shift can cause frequency distortion and affect the signal quality, contributing to fast fading.
-
 ---
 
 #### **Effects of Doppler Shift**:
