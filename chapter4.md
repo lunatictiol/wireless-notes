@@ -81,12 +81,6 @@ The Free Space Propagation Model is used to predict the signal strength over a d
    - The second term 20 log10(f) reflects how higher frequencies suffer more attenuation in free space. Higher frequencies lead to greater path loss.
    - The constant term adjusts the equation for practical units and ensures that the result is in decibels (dB).
 
-
-4. **Explanation of the Equation**:
-   - The **first term** \( 20 \log_{10}(d) \) accounts for the loss as the signal travels over distance. Signal strength decreases with the square of the distance.
-   - The **second term** \( 20 \log_{10}(f) \) reflects how higher frequencies suffer more attenuation in free space. Higher frequencies lead to greater path loss.
-   - The **constant** term adjusts the equation for practical units and ensures that the result is in decibels (dB).
-
 #### **Assumptions of the Free Space Propagation Model**:
 - **No obstacles** between the transmitter and receiver (perfect line-of-sight).
 - **Isotropic antennas**: The model assumes the transmitter radiates energy uniformly in all directions.
